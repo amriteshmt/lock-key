@@ -2,6 +2,10 @@ body {
   padding: 0;
   margin: 0;
   background-image: url("https://img.freepik.com/premium-photo/horror-creepy-working-room-hospital-3d-rendering_307211-426.jpg?w=1060");
+  background-size: cover;         
+  background-position: center;    
+  background-repeat: no-repeat;   
+  height: 100vh;
 }
 
 body * {
