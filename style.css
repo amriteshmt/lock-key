@@ -1,0 +1,98 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  background-image: url("https://img.freepik.com/premium-photo/horror-creepy-working-room-hospital-3d-rendering_307211-426.jpg?w=1060");
+}
+
+body * {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serifs;
+}
+
+#heading {
+  width:500px;
+  height: 100px;
+  text-align:center;
+  color: #ff0000;
+  font-family: 'Creepster', sans-serif;
+  font-size: 5em;
+  text-shadow: 0 0 10px rgba(255, 0, 0, 0.6), 
+               0 0 20px rgba(255, 0, 0, 0.6), 
+               0 0 30px rgba(255, 0, 0, 0.6), 
+               0 0 40px rgba(255, 0, 0, 0.6);
+  position: relative;
+  animation: flicker 3s infinite alternate;
+}
+
+div {
+  display: inline;
+}
+
+aside {
+  width: 30%;
+  float: right;
+  font-style: italic;
+  background-color:rgba(0, 0, 0, 0);
+}
+
+#key {
+  background-color: rgba(0, 0, 0, 0);
+  height: 50px;
+  width: 300px;
+  text-align: center;
+  color: red;
+}
+
+#button {
+  height: 30px;
+  width: 100px;
+  background-color: rgba(0, 0, 0, 0);
+  color: rgb(87, 126, 87);
+}
+
+h1 {
+  color: #29553b;
+  font-family: 'Creepster', sans-serif;
+  text-shadow: 0 0 1px rgba(87, 126, 87, 0.6), 
+               0 0 1px rgba(87, 126, 87, 0.6), 
+               0 0 1px rgba(87, 126, 87, 0.6), 
+               0 0 1px rgba(87, 126, 87, 0.6);
+  position: relative;
+  animation: flicker 3s infinite alternate;
+}
+
+#showPass{
+  color: #29553b;
+  font-family: 'Creepster', sans-serif;
+}
+
+#message {
+  color: #ff0000;
+  text-align: center;
+  font-family: 'Creepster', sans-serif;
+  text-shadow: 0 0 10px rgba(255, 0, 0, 0.6), 
+               0 0 20px rgba(255, 0, 0, 0.6), 
+               0 0 30px rgba(255, 0, 0, 0.6), 
+               0 0 40px rgba(255, 0, 0, 0.6);
+  position: relative;
+  animation: flicker 3s infinite alternate;
+  visibility: hidden;
+}
+
+/* 🔥 Shake Animation */
+.shake {
+  animation: shake 0.4s ease;
+}
+
+@keyframes shake {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  50% { transform: translateX(5px); }
+  75% { transform: translateX(-5px); }
+  100% { transform: translateX(0); }
+}
+
+#text1 {
+  color: #29553b;  
+  accent-color: #29553b; 
+}
+
