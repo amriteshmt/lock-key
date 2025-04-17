@@ -1,0 +1,17 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background-image: url("https://st.depositphotos.com/1428083/2946/i/450/depositphotos_29460297-stock-photo-bird-cage.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%; 
+}
+.heading2{
+    margin-top:150px;
+    text-align: center;
+  }
+  .heading3{
+    margin-left:30%;
+    margin-right: 30%;
+    text-align: center;
+  }
